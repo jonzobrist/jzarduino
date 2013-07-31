@@ -16,4 +16,5 @@ void loop()
   Serial.print(dht.getHumidity());
   Serial.print("\t");
   Serial.print(dht.getTemperature());
+  Serial.print("\r\n");
 }
